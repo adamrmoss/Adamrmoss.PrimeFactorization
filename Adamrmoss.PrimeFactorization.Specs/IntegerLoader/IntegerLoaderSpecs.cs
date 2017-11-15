@@ -45,7 +45,7 @@ namespace Adamrmoss.PrimeFactorization.Specs
         {
             var ints = this.integerLoader.GetIntegersFromFile("Fixtures/ValidInput.txt");
 
-            ints.Count.Should().BeGreaterThan(0);
+            ints.ShouldBeEquivalentTo(new[] { 2, 6, 9, 79, 83, 89, 97, 202 });
         }
     }
 }
