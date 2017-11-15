@@ -26,7 +26,7 @@ namespace Adamrmoss.PrimeFactorization.Specs
         [Test]
         public void WhenIFactorizeTheNegationOfAPrimeNumber_ThenIReturnNegativeOneAndThatNumber()
         {
-            var result = this.integerFactorizer.GetPrimeFactors(11);
+            var result = this.integerFactorizer.GetPrimeFactors(-11);
 
             result.ShouldBeEquivalentTo(new[] { -1, 11 });
         }
