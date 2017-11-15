@@ -3,9 +3,20 @@
         <TargetFramework>netcoreapp2.0</TargetFramework>
     </PropertyGroup>
     <ItemGroup>
+        <PackageReference Include="FluentAssertions" Version="4.19.4" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
         <PackageReference Include="NUnit" Version="3.9.0" />
+        <PackageReference Include="NUnit3TestAdapter" Version="3.9.0" />
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\Adamrmoss.PrimeFactorization\Adamrmoss.PrimeFactorization.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Update="Fixtures\InvalidInput.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Fixtures\ValidInput.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 </Project>
