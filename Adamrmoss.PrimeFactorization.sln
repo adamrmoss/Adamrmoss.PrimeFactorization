@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adamrmoss.PrimeFactorization", "Adamrmoss.PrimeFactorization\Adamrmoss.PrimeFactorization.csproj", "{7FCDDD60-13A5-43E9-BAE7-5EB172CECE01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adamrmoss.PrimeFactorization.Specs", "Adamrmoss.PrimeFactorization.Specs\Adamrmoss.PrimeFactorization.Specs.csproj", "{4E80EB9E-AD61-40DE-8198-DE7E39733E27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7FCDDD60-13A5-43E9-BAE7-5EB172CECE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FCDDD60-13A5-43E9-BAE7-5EB172CECE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FCDDD60-13A5-43E9-BAE7-5EB172CECE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E80EB9E-AD61-40DE-8198-DE7E39733E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E80EB9E-AD61-40DE-8198-DE7E39733E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E80EB9E-AD61-40DE-8198-DE7E39733E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E80EB9E-AD61-40DE-8198-DE7E39733E27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
