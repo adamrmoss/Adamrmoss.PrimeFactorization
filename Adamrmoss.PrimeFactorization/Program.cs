@@ -16,7 +16,7 @@ namespace Adamrmoss.PrimeFactorization
             foreach (var integerToFactorize in integersToFactorize)
             {
                 var factors = integerFactorizer.GetPrimeFactors(integerToFactorize);
-                Console.WriteLine(string.Join(',', factors));
+                Console.WriteLine(string.Join(",", factors));
             }
         }
     }
